@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Testing Gatsby', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to this test Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Samrat',
+  subtitle: 'Exploring Gatsby',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'AmazonPhoto.jpg',
+  paragraphOne: 'Lets see if these edits show up on the page',
+  paragraphTwo: 'I would to have a real website with some cool functionality show up here',
+  paragraphThree: 'CloudFront is the best!',
+  resume: 'https://www.linkedin.com/in/samratkarak', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/samratkarak/gatsby-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
