@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'AmazonPhoto.jpg',
   paragraphOne: 'Lets see if these edits show up on the page',
-  paragraphTwo: 'I would to have a real website with some cool functionality show up here',
+  paragraphTwo: 'I would love to have a real website with some cool functionality show up here',
   paragraphThree: 'CloudFront is the best!',
   resume: 'https://www.linkedin.com/in/samratkarak', // if no resume, the button will not show up
 };
@@ -29,10 +29,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Check out this cool blogpost about CloudFront real-time logs',
+    info: 'Let me know if you have questions',
     info2: '',
-    url: '',
+    url: 'https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/real-time-logs.html',
     repo: 'https://github.com/samratkarak/gatsby-simplefolio', // if no repo, the button will not show up
   },
   {
